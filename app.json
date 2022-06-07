@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "todoApp",
-    "slug": "todoApp",
-    "version": "1.0.0",
+    "name": "Todo Log",
+    "slug": "todoLog",
+    "version": "1.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-Todo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-Todo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#C99774"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,12 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [],
+      "package": "com.todoLog.app",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/adaptive-icon-Todo.png",
+        "backgroundColor": "#C99774"
       }
     },
     "web": {
